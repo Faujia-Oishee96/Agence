@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style-type: none;
     font-family: "Inter", serif;   
 }
@@ -487,15 +487,16 @@ ul, h1, h2, h3, h4, h5, h6{
     margin-top: 30px;
 }
 #contactPart .container .row .listOption h4{
-    width: 120px;
     font-size: 20px;
     font-weight: 600;
     color: var(--black);
     margin-bottom: 40px;
 }
-#contactPart .container .row .listOption ul li{
+#contactPart .container .row .listOption ul li a{
     color: #7B7B7B;
-    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
 }
 
 /*------------------ footer part  --------------------*/
